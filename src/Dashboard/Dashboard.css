@@ -1,0 +1,526 @@
+
+.Main-Header{
+    display: flex;
+    /* width: 100%; */
+    height: 71px;
+    justify-content: left;
+    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.Entire-page{
+    padding: 0;
+    margin: 0;
+    background-color: #F9F9F9;
+    height: 99vh;
+}
+.Header-Navbar{
+   width: 65%;
+    display: flex;
+    justify-content: center;
+}
+.Navbar-list{
+    display: flex;
+    list-style: none;
+    gap: 29px;
+    align-items: center;
+    margin: 0;
+    padding-left: 100px;
+}
+.Dashboard{
+    color: white;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #0172A3;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+.Manage-Application,
+.Manage-Students,
+.Search-Program{
+    text-decoration: none;
+    color: #5B5B5B;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+
+}
+.Saio-logo{
+    width: 130px;
+    height: 48px;
+    scale: 0.91;
+}
+.Email-Update {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 15%;
+    justify-content: center;
+}
+.Last-div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 12px;
+}
+
+.Header-mail{
+    width: 24px;
+    height: 24px;
+}
+.Header-Notification{
+    width: 24px;
+    height: 24px;
+}
+.Header-Profile{
+    width: 39px;
+    height: 38px;
+}
+.Section--1{
+   
+    display: flex;
+    padding-left: 70px;
+    padding-right: 70px;
+    justify-content: space-between;
+    
+}
+.Dashboard-text{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #0172A3;
+    margin-top: 31px;
+}
+.Email-Update {
+    margin: 0;
+    font-size: 15px;
+    color: #5B5B5B;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+.Email-Update-text {
+    margin: 0;
+    font-size: 15px;
+    color: #5B5B5B;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+.Welcome-text{
+    margin: 0;
+    color: #5B5B5B;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.Section--1-1{
+    text-align:left ;
+}
+.Reg-btn-div{
+   align-items: center;
+    display: flex;
+    
+}
+.Reg-button{
+    padding: 12px 19px 12px 19px;
+    border-radius: 50px;
+    border: none;
+    background-color: #1C9D11;
+    color: white;
+    margin-top: 31px;
+    cursor: pointer;
+    border: none;
+    transition: ease-in-out;
+    font-family: 'Inter', sans-serif;
+}
+.Reg-button:hover{
+    background-color: #1d9d11e1;
+    scale: 0.99;
+    transition: ease-in-out;
+}
+.Done{
+    padding: 12px 19px 12px 19px;
+    border-radius: 50px;
+    border: none;
+    background-color: #1C9D11;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    transition: ease-in-out;
+    font-family: 'Inter', sans-serif;
+}
+.S-msg-content{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+.errors{
+    font-size: 12px;
+    color: red;
+}
+.countrycode{
+    display: flex;
+}
+
+/* CSS */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.354); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; 
+  }
+  
+  .popup {
+    background-color: white;
+    padding: 17px 20px 17px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000; 
+    width: 350px;
+  }
+  .Popup-Header-text{
+    margin: 0;
+    font-size: 20px;
+    color: rgb(37, 37, 37);
+  }
+
+  /* .Popup-Header button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  } */
+  .Popup-Header{
+    display: flex;
+    justify-content: left;
+  }
+  .x-btn{
+    margin-left: 120px;
+  }
+  .Popup-Header button{
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    font-size: 19px;
+    background-color: #F9F9F9;
+    box-shadow: 0px 0px 2.8px rgba(0, 0, 0, 0.45);
+  }
+  .popup hr {
+    border: none;
+    height: 1px;
+    background-color: #a5a5a5; 
+    margin-top: 13px;
+  }
+  .form-first-name h5{
+    margin: 0;
+    text-align: left;
+    color: #000000cd;
+    font-size: 12px;
+  }
+  .form-first-name h5 span{
+    color: red;
+  }
+
+  .Firstname-input{
+    width:335px;
+    height: 25px;
+    outline: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: solid 1px #c0c0c0;
+  }
+  .form-first-name{
+    text-align: left;
+    margin-bottom: 15px;
+   margin-top: 9px;
+  }
+.Register-student-green-btn{
+    background-color: #129007;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 17px 10px 17px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.Date-dropdown{
+    width: 210px;
+    height: 35px;
+    outline: none;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #666666;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #666666;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Date-dropdown option {
+    padding-top: 10px; 
+    background-color: #f9f9f9; 
+    outline: none;
+    font-size: 14px;
+    color: #666666;
+    font-family: 'Inter', sans-serif;
+    
+  }
+  .Date-dropdown option:checked {
+    background-color: #0172a32b;
+    color: #484848; 
+  }
+  .Date-dropdown-text:hover{
+    cursor: pointer; 
+    background-color: #f2f2f2;
+  }
+.Date-dropdown-text{
+    font-size: 14px;
+    color: #666666;
+    font-family: 'Inter', sans-serif;
+}
+.Dropdown-menu{
+    display: flex;
+    
+    justify-content: left;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 15px;
+    gap: 10px;
+    align-content: center;
+}
+.Apply-filter-btn{
+    display: flex;
+    background-color: #0172A3;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 50px;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    border: none;
+    transition: ease-in-out;
+    scale: 0.91;
+}
+.Apply-filter-btn:hover{
+    background-color: #007eb4;
+    scale: 0.90;
+    transition: ease-in-out;
+}
+.recycle{
+    width: 19px;
+    height: 19px;
+}
+.Apply{
+    color: white;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+.Section--3{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+    background-color: #F9F9F9;
+}
+.Fisrt-row-cards{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.Second-row-cards{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-1{
+    width: 266px;
+    height: 100px;
+    box-shadow:0px 0px 2px rgba(0, 0, 0, 0.47);
+    border-radius: 19.1px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-text{
+    margin: 0;
+    margin-top: 16px;
+    margin-right: 130px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.card-text-2{
+    margin: 0;
+    margin-top: 16px;
+    margin-right: 190px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.card-text-3{
+    margin: 0;
+    margin-top: 16px;
+    margin-right: 160px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.card-text-4{
+    margin: 0;
+    margin-top: 16px;
+    margin-right: 135px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.card-text-5{
+    margin: 0;
+    margin-top: 16px;
+    margin-right: 125px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.card-text-6{
+    margin: 0;
+    margin-top: 16px;
+    margin-right: 120px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.card-text-7{
+    margin: 0;
+    margin-top: 16px;
+    margin-right: 170px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.card-text-8{
+    margin: 0;
+    margin-top: 16px;
+    margin-right: 80px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.card-number{
+    margin: 0;
+    margin-bottom: 16px;
+    margin-left: 195px;
+    font-size: 23px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #0172A3;
+}
+.Section--4{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #F9F9F9;
+}
+.Card-link{
+    text-decoration: none;
+}
+.Card-link-2{
+    text-decoration: none;
+    color: #0172A3;
+    font-family: 'Inter', sans-serif;
+}
+.Quick-links{
+    display: flex;
+    justify-content: left;
+}
+.Quick-links-1{
+    width: 50%;
+}
+.Quick-links-2{
+    width: 50%;
+}
+.Dynamic-card-1{
+    width: 250px;
+    height: 170px;
+    box-shadow:1.6px 1.6px 7.6px rgba(0, 0, 0, 0.25);
+    border-radius: 8.5px;
+    padding: 5px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.card-row-1{
+    display: flex;
+    align-items: center;
+}
+.search-icon-div{
+    width: 82%;
+    display: flex;
+    padding-left: 10px;
+}
+.search-icon{
+    width: 50px;
+}
+.card-row-text{
+    margin: 0;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+    color: black;
+}
+.card-row-text{
+    text-decoration: none;
+}
+.card-row-sub-text{
+    margin: 0;
+    text-align: left;
+    padding-left: 10px;
+    color: #757575;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+    font-size: 12px;
+    width: 90%;
+    text-decoration: none;
+}
+.card-row-sub-text-links{
+    margin: 0;
+    text-align: left;
+    padding-left: 10px;
+    color: #0172A3;
+    font-family: 'Inter', sans-serif;
+    margin-top: 5px;
+    font-size: 11px;
+    width: 90%;
+    text-decoration: none;
+}
+.card-row-sub-text-links:hover{
+    text-decoration: underline;
+}
+.row-1{
+    display: flex;
+    justify-content: space-between;
+}
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+.row-3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
