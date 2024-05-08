@@ -1,0 +1,30 @@
+.Checkbox-options {
+    text-align: left;
+    list-style: none; 
+  }
+  
+  .Universites{
+    background-color: rgb(222, 156, 156);
+    width: 35%;
+    border: 1px solid;
+    display: inline-block;
+    border-radius: 5px;
+    height: 120px;
+    overflow-y: scroll;
+    
+  }
+
+  .Checkboxes{
+    background-color: aqua;
+    text-align: center;
+    
+
+  }
+  .Dropdown-select{
+    width: 20%;
+    height: 25px;
+  }
+  .selected{
+    text-align: center;
+    line-height: 4px;
+  }

@@ -1,0 +1,50 @@
+.page{
+   
+}
+.Header{
+    display: flex;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 5px;
+}
+.logo{
+    width: 147px;
+    height: 55px;
+}
+.en-apply{
+    display: flex;
+    justify-content: flex-end;
+   
+    width: 100%;
+}
+.Enquire-Now{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 50px;
+    background-color: #FDB71A;
+    color: rgb(0, 0, 0);
+    margin-right:10px ;
+    align-items: center;
+}
+.Enquire-Now:hover{
+    color: aliceblue;
+}
+.Apply-to-University{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 50px;
+    border: 3px solid #1c9fbd;
+}
+.Section-1{
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./Images/sec-1-cover.jpg');
+    background-size: cover;
+    
+}
+.Heading-1{
+    color: white;
+}
