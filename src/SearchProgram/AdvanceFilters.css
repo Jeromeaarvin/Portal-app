@@ -1,0 +1,74 @@
+.Advanced-Search-Sectio-1{
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+.Advance-search{
+    display: flex;
+    justify-content: space-between;
+}
+.Second-dropdowns{
+    display: flex;
+    width: 33.33%;
+}
+.First-check-box{
+    text-align: left;
+}
+.Third-check-box{
+    text-align: left;
+}
+.First-check-box p{
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: rgb(49, 49, 49);
+}
+.Third-check-box p{
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: rgb(49, 49, 49);
+}
+.checkboxes{
+    text-align: left;
+    margin-top: 4px;
+    margin-left: 8px;
+}
+.sp-1-dropdown{
+    text-align: left;
+    margin-top: 25px;
+}
+.sp-1-1-dropdown{
+    text-align: left;
+}
+.sp-1-dropdown p{
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 3px;
+    font-weight: 600;
+    color: rgb(49, 49, 49);
+}
+.sp-1-1-dropdown p{
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 3px;
+    font-weight: 600;
+    color: rgb(49, 49, 49);
+}
+.First-colmn{
+    column-gap: 5px;
+}
+.drop-downbox{
+    padding: 5px 7px 5px 7px;
+    width: 100px;
+    background-color: rgb(235, 235, 235);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
